@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+    color: #000; /* Ensure black text throughout */
+}
+
+/* Container for Personal Information */
+.container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+
+/* Image Container for Profile Picture */
+.image-container {
+    position: absolute;
+    top: 30px;
+    right: 180px;
+    max-width: 150px;
+    height: auto;
+}
+/* Text Container for Personal Information */
+.text-container {
+    margin-top: 50px; /* Reduced margin to bring it closer to the top */
+    padding-right: 20px; /* Space for the image container so that text and image do not overlap */
+    line-height: 1.5;
+}
+
+
+/* Section Titles */
+h2, h3 {
+    font-size: 1.5em;
+    border-bottom: 2px solid black; /* Underline with black border */
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/* Personal Information Table */
+.hidden-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures no gaps between table cells */
+    margin-top: 10px;
+}
+
+.hidden-table th, .hidden-table td {
+    padding: 8px 12px; /* Padding for a clean look */
+    text-align: left;
+    vertical-align: top;
+}
+
+.hidden-table th {
+    width: 30%; /* Ensure all labels take up 30% of the space */
+    font-weight: bold;
+}
+
+/* Education Table */
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.education th, .education td {
+    border: 1px solid black; /* Ensure visible black borders for education table */
+    padding: 10px;
+    text-align: left;
+}
+
+.education th {
+    background-color: #f0f0f0; /* Light grey background for table headers */
+    font-weight: bold;
+}
+
+/* Computer Skills List */
+.computer-skills ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding-left: 0;
+}
+
+.computer-skills li {
+    line-height: 1.5;
+    margin-bottom: 10px; /* Adds spacing between items for readability */
+}
+
+/* Professional Experience */
+.professional-experience ol {
+    list-style-type: decimal; /* Ordered list numbering */
+    margin-left: 20px; /* Adds left margin to align */
+    line-height: 1.5; /* Improves readability */
+}
+
+.professional-experience ul {
+    list-style-type: disc; /* Adds bullet points under each role */
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Projects Section */
+.projects ul {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0;
+}
+
+.projects ul li {
+    margin-top: 10px;
+}
+
+.projects ul li strong {
+    display: block; /* Ensures project titles stand out as a block */
+    margin-bottom: 5px;
+}
+
+/* Achievements, Hobbies, Games */
+.achievements ul, .hobbies ul, .games ul, .languages ul {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0;
+}
+
+.achievements li, .hobbies li, .games li, .languages li {
+    line-height: 1.5; /* Adds spacing between lines for readability */
+    margin-bottom: 8px; /* Adds space between list items */
+}
+
+/* References Section */
+.references div {
+    margin-top: 15px;
+}
+
+.references p {
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+/* Contact Details Styling */
+.text-container p {
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
